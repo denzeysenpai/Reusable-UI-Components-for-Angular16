@@ -1,0 +1,24 @@
+#flat-button-classic {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+
+  color: white;
+  font-weight: 600;
+  background-color: rgb(64, 153, 255);
+  border-radius: 5px;
+  border: 0px solid gray;
+  box-shadow: inset 0 0 0 rgb(0, 72, 139);
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+#flat-button-classic:hover {
+  background-color: rgb(26, 108, 202);
+}
+
+#flat-button-classic:active {
+  background-color: rgb(0, 65, 117);
+}

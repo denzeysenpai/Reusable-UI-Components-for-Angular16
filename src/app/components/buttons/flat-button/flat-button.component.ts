@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'flat-button',
@@ -7,7 +7,13 @@ import { Component, Input } from '@angular/core';
   standalone: true
 })
 export class FlatButtonComponent {
-  @Input() corners : string = '0px'
-  @Input() name : string = 'flat button'
-  @Input() id : string = 'flat button'
+  @Input() name: string = 'flat button'
+  @Input() text: string = 'flat button'
+  @Input() type: string = 'submit'
+
+  buttonAction() {
+    // your code here
+
+    console.log('Flat button works!')
+  }
 }

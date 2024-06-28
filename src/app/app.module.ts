@@ -30,6 +30,6 @@ import { ThreeDButtonThreeComponent } from './components/buttons/three-dbutton-t
     ThreeDButtonThreeComponent
   ],
   providers: [],
-  bootstrap: []
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

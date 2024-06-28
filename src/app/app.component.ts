@@ -12,18 +12,8 @@ import { ThreeDButtonThreeComponent } from './components/buttons/three-dbutton-t
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
-  imports: [
-    ModernButtonComponent,
-    FlatButtonComponent,
-    StylishButtonOneComponent,
-    StylishButtonTwoComponent,
-    StylishButtonThreeComponent,
-    StylishButtonFourComponent,
-    ThreeDButtonOneComponent,
-    ThreeDButtonTwoComponent,
-    ThreeDButtonThreeComponent
-  ]
+  styleUrls: ['./app.component.scss']
+
 })
 export class AppComponent {
   title = 'Reusable';

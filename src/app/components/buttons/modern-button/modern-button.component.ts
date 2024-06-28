@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'modern-button',
@@ -7,5 +7,13 @@ import { Component } from '@angular/core';
   standalone: true
 })
 export class ModernButtonComponent {
+  @Input() name: string = 'modern button'
+  @Input() text: string = 'modern button'
+  @Input() type: string = 'submit'
 
+  buttonAction() {
+    // your code here
+
+    console.log('Flat button works!')
+  }
 }

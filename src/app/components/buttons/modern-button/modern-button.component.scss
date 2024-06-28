@@ -1,0 +1,38 @@
+#modern-button-wrapper {
+  margin: 2px;
+  padding: 3px;
+  height: fit-content;
+  width: fit-content;
+    border-radius: 50px;
+    transition: all 0.2s ease;
+    background-color: black;
+
+    &:hover {
+      padding: 0px;
+    }
+
+  #modern-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(36, 36, 36);
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: antiquewhite;
+    color: antiquewhite;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background-color: rgb(41, 41, 41);
+      border-radius: 50px;
+      padding-top: 13px;
+      padding-bottom: 13px;
+      padding-left: 23px;
+      padding-right: 23px;
+    }
+  }
+
+
+}
