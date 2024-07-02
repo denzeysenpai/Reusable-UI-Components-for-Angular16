@@ -1,0 +1,36 @@
+.main {
+  height: 60px;
+  justify-content: center;
+  background-image: linear-gradient(to left, rgb(0, 255, 191), rgb(17, 167, 226), rgb(6, 255, 193));
+  width: 190px;
+  background-position: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 4px;
+  display: flex;
+  background-size: 160%;
+  background-position: center;
+
+  &:hover {
+    background-position: right;
+  }
+
+  &:active {
+    background-size: 280%;
+
+  }
+
+  .inner-text {
+    position: absolute;
+  }
+
+}
+
+.area {
+  height: 60px;
+  width: 60px;
+  content: '';
+  background-color: rgba(255, 0, 0, 0);
+  margin: auto;
+}
+
